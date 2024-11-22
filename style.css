@@ -1,0 +1,177 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+
+.zoom{
+    max-width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(27, 26, 26);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header{
+    display: flex;
+    /* border: solid; */
+    /* max-width: 900px; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about_icon, #verified_icon, #speakerview_icon, #fullscreen_icon{
+    max-height: 20px;
+}
+
+.left_elements{
+    /* border: solid red; */
+    margin-left: auto;
+}
+
+.content{
+    /* max-width: 900px; */
+    max-height: 485px;
+    /* background-color: black; */
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: small;
+    /* padding: 20px; */
+    justify-content: space-evenly;
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.items{
+    width: 250px;
+    height: 150px;
+    border: solid black;
+    background-color: black;
+    margin-top: 1%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.items:hover{
+    border: solid white;
+}
+
+#person1, #person2, #person3, #person5, #person7, #person8, #person9, #person10{
+    position: relative;
+    height: 100%;
+    border: solid black;
+}
+
+#person1{
+    margin-left: 30%;
+}
+
+#person1_text{
+    position: relative;
+    margin-top: -8%;
+    margin-left: 1%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+    z-index: 2;
+}
+
+#person2{
+    margin-left: 20%;
+}
+
+#person3{
+    margin-left: 5%;
+}
+
+#person5{
+    margin-left: 20%;
+}
+
+#person7, #person8{
+    margin-left: 5%;
+}
+
+#person9, #person10{
+    margin-left: 20%
+}
+
+#person4, #person6, #person11{
+    width: 100%;
+    /* border: solid green; */
+}
+
+#item4, #item6, #item11{
+    border: solid green;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+.footer{
+    /* border: solid white; */
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fleft{
+    display: flex;
+    column-gap: 5%;
+    justify-content: left;
+    /* border: solid green; */
+    width: 25%;
+}
+
+#unmute, #stopvideo{
+    height: 70%;
+    margin-top: 4%;
+}
+
+#stopvideo{
+    height: 70%;
+    margin-left: 1.5%;
+}
+
+.fcenter{
+    /* border: solid red; */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    column-gap: 2%;
+    justify-content: center;
+    width: 50%;
+}
+
+
+
+.fright{
+    margin-left: auto;
+    margin-right: 2%;
+    text-align: center;
+    /* border: solid blue; */
+    width: 25%;
+}
+
+#leave{
+    background-color: red;
+    padding: 6px;
+    border-radius: 6px;
+    text-align: center;
+    width: 25%;
+    margin-left: auto;
+    margin-top: 10%;
+}
+
+#participants, #chat, #screenshare, #record, #reactions{
+    height: 80%;
+    margin-top: 1%;
+}
