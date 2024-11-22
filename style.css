@@ -49,11 +49,11 @@ body{
 }
 
 .items{
-    width: 200px;
-    height: 140px;
+    width: 250px;
+    height: 150px;
     border: solid black;
     background-color: black;
-    /* margin-top: 1%; */
+    margin-top: 1%;
     /* display: flex; */
     /* justify-content: center; */
 }
@@ -62,15 +62,15 @@ body{
     border: solid white;
 }
 
-#person1, #person2, #person3 #person5, #person7, #person8, #person9, #person10{
+#person1, #person2, #person3, #person5, #person7, #person8, #person9, #person10{
     position: relative;
     height: 100%;
     border: solid black;
 }
 
-#person3{
-    width: 100%;
-}
+/* #person3, #person7, #person8{
+    margin-left: -8%;
+} */
 
 #person1{
     margin-left: 30%;
@@ -107,7 +107,7 @@ body{
 
 #person4, #person6, #person11{
     width: 100%;
-    margin-top: 6%;
+    margin-top: 2%;
     /* border: solid green; */
 }
 
