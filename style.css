@@ -137,12 +137,8 @@ body{
 }
 
 #unmute, #stopvideo{
-    height: 50%;
+    height: 45%;
     margin-top: 12%;
-}
-
-#stopvideo{
-    margin-left: 1.5%;
 }
 
 .fcenter{
@@ -167,11 +163,11 @@ body{
 
 #leave{
     margin-left: auto;
-    height: 40%;
-    margin-top: 17%;
+    height: 35%;
+    margin-top: 16%;
 }
 
 #participants, #chat, #screenshare, #record, #reactions{
-    height: 50%;
-    margin-top: 6%;
+    height: 45%;
+    margin-top: 7%;
 }
