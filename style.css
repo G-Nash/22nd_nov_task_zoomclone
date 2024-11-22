@@ -118,7 +118,8 @@ body{
 .heading{
     text-align: center;
     text-decoration: underline;
-    margin-bottom: 30px;
+    margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 .footer{
@@ -150,8 +151,6 @@ body{
     justify-content: center;
     width: 50%;
 }
-
-
 
 .fright{
     margin-left: auto;
