@@ -65,7 +65,7 @@ body{
 #person1, #person2, #person3, #person5, #person7, #person8, #person9, #person10{
     position: relative;
     height: 100%;
-    border: solid black;
+    /* border: solid black; */
 }
 
 /* #person3, #person7, #person8{
