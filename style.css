@@ -5,7 +5,7 @@ body{
 }
 
 .zoom{
-    max-width: 1050px;
+    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(27, 26, 26);
@@ -32,7 +32,7 @@ body{
 
 .content{
     /* max-width: 900px; */
-    max-height: 485px;
+    max-height: 495px;
     /* background-color: black; */
     overflow-y: auto;
     margin-left: auto;
