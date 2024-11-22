@@ -158,17 +158,13 @@ body{
     text-align: center;
     /* border: solid blue; */
     width: 25%;
+    display: flex;
 }
 
 #leave{
-    background-color: red;
-    padding: 6px;
-    border-radius: 6px;
-    text-align: center;
-    width: 25%;
     margin-left: auto;
-    margin-top: 15%;
-    font-size: smaller;
+    height: 50%;
+    margin-top: 14%;
 }
 
 #participants, #chat, #screenshare, #record, #reactions{
