@@ -39,7 +39,7 @@ body{
     margin-right: auto;
     display: flex;
     flex-wrap: wrap;
-    font-size: small;
+    font-size: medium;
     /* padding: 20px; */
     justify-content: space-evenly;
 }
@@ -78,7 +78,7 @@ body{
 
 #person1_text{
     position: relative;
-    margin-top: -8%;
+    margin-top: -6%;
     margin-left: 1%;
     background-color: rgba(0, 0, 0, 0.6);
     width: max-content;
