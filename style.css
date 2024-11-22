@@ -5,7 +5,7 @@ body{
 }
 
 .zoom{
-    max-width: 850px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     background-color: rgb(27, 26, 26);
@@ -32,7 +32,7 @@ body{
 
 .content{
     /* max-width: 900px; */
-    height: 470px;
+    height: 500px;
     /* background-color: black; */
     overflow-y: auto;
     margin-left: auto;
@@ -50,10 +50,10 @@ body{
 
 .items{
     width: 200px;
-    height: 125px;
+    height: 140px;
     border: solid black;
     background-color: black;
-    margin-top: 1%;
+    /* margin-top: 1%; */
     /* display: flex; */
     /* justify-content: center; */
 }
@@ -62,10 +62,14 @@ body{
     border: solid white;
 }
 
-#person1, #person2, #person3, #person5, #person7, #person8, #person9, #person10{
+#person1, #person2, #person3 #person5, #person7, #person8, #person9, #person10{
     position: relative;
     height: 100%;
     border: solid black;
+}
+
+#person3{
+    width: 100%;
 }
 
 #person1{
@@ -103,7 +107,7 @@ body{
 
 #person4, #person6, #person11{
     width: 100%;
-    margin-top: 3%;
+    margin-top: 6%;
     /* border: solid green; */
 }
 
